@@ -29,6 +29,7 @@ setup(
         'django-mptt>=0.6',
         'django_polymorphic>=0.7',
         'Unidecode>=0.04',
+        'django-smart-load-tag>=0.3.2',
     ),
     include_package_data=True,
     zip_safe=False,

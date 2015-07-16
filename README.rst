@@ -25,6 +25,7 @@ Dependencies
 * `django-mptt`_ >=0.5.1
 * `easy_thumbnails`_ >= 1.0
 * `django-polymorphic`_ >= 0.2
+* `django-smart-load-tag`_ >= 0.3.2
 * `Pillow`_ 2.3.0 (with JPEG and ZLIB support, `PIL`_ 1.1.7 is supported but not recommended)
 
 ``django.contrib.staticfiles`` is required.
@@ -45,7 +46,7 @@ To get started using ``django-filer`` simply install it with
 Configuration
 -------------
 
-Add ``"filer"``, ``"mptt"`` and ``"easy_thumbnails"`` to your project's ``INSTALLED_APPS`` setting and run ``syncdb``
+Add ``"filer"``, ``"mptt"``, ``"smart_load_tag"`` and ``"easy_thumbnails"`` to your project's ``INSTALLED_APPS`` setting and run ``syncdb``
 (and ``migrate`` if you're using South).
 
 See the docs for advanced configuration:

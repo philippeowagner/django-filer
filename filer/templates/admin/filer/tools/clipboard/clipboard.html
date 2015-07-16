@@ -1,4 +1,6 @@
-{% load thumbnail i18n %}
+{% load smart_load %}
+{% load thumbnail from easy_thumbnails as easy_thumbnail %}
+{% load i18n %}
 {% load url from future %}
 
 {% for clipboard in user.filer_clipboards.all %}
